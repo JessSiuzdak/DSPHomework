@@ -1,0 +1,9 @@
+%Problem1
+%Write a Matlab function whose syntax is x = ar(a,sig,L) that produces a length L realization
+%of an autoregressive process with parameters a and σ such that
+%x(n)+ a(1)x(n −1)+ a(2)x(n −2)+...+ a(M)x(n − M) = v(n)
+%where v(n) is a white noise process with variance σ
+%2
+%. Hand in a plot of a realization you created with a(1) =
+%−0.9, a(2) = 0.7, and zero otherwise. σ = 0.5, and L = 200. Note: you should assume the process begins with
+%x(−1) = ··· = x(−M) = 0, but these zeros should not be included in the output.
